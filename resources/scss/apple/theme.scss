@@ -1,0 +1,162 @@
+@import 'functions';
+@import 'variables';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'mixins';
+
+a {
+	color: $primary;
+	
+	&:hover,
+	&:focus {
+		color: mix($black, $primary, 20%);
+	}
+}
+.text-theme {
+	color: $primary !important;
+}
+.bg-theme {
+	background-color: $primary !important;
+	
+	@if ($primary-color == 'yellow') {
+		color: $black;
+	}
+}
+.app-header {
+	& .navbar-brand {
+		& .navbar-logo {
+			text-shadow: 3px -3px mix($white, $primary, 70%);
+    	color: $primary;
+		}
+	}
+	& .navbar-nav {
+		& .navbar-item {
+			& .navbar-link {
+				& .badge {
+					background: $primary;
+					
+					@if ($primary-color == 'yellow') {
+						color: $black;
+					}
+				}
+			}
+		}
+	}
+}
+.app-sidebar {
+	& .menu {
+		& .menu-item {
+			& .menu-link {
+				& .menu-label {
+					background-color: $primary;
+					
+					@if ($primary-color == 'yellow') {
+						color: $black;
+					}
+					@include gradient-enabled {
+						background: linear-gradient(to bottom, (lighten($primary, 5%) 0%, darken($primary, 5%) 100%));
+					}
+				}
+			}
+			&.active {
+				& > .menu-link {
+					background-color: $primary;
+					
+					@if ($primary-color == 'yellow') {
+						color: $black;
+					}
+					@include gradient-enabled {
+						background: linear-gradient(to bottom, (lighten($primary, 5%) 0%, darken($primary, 5%) 100%));
+					}
+				}
+			}
+		}
+	}
+}
+.app-sidebar-float-submenu-container {
+	& .app-sidebar-float-submenu {
+		& .menu-item {
+			&.active {
+				&:after {
+					background-color: $primary;
+					border-color: $primary !important;
+				}
+			}
+		}
+	}
+}
+.app-with-light-sidebar {
+	& .app-sidebar {
+		& .menu {
+			& .menu-item {
+				&.active {
+					& > .menu-link {
+						background-color: $primary;
+					
+						@if ($primary-color == 'yellow') {
+							color: $black;
+						}
+						@include gradient-enabled {
+							background: linear-gradient(to bottom, (lighten($primary, 5%) 0%, darken($primary, 5%) 100%));
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.app-top-menu {
+	& .menu {
+		& .menu-item {
+			& .menu-link {
+				& .menu-label {
+					background-color: $primary;
+					
+					@if ($primary-color == 'yellow') {
+						color: $black;
+					}
+					@include gradient-enabled {
+						background: linear-gradient(to bottom, (lighten($primary, 5%) 0%, darken($primary, 5%) 100%));
+					}
+				}
+			}
+			&.active {
+				& > .menu-link {
+					background-color: $primary;
+					
+					@if ($primary-color == 'yellow') {
+						color: $black;
+					}
+					@include gradient-enabled {
+						background: linear-gradient(to bottom, (lighten($primary, 5%) 0%, darken($primary, 5%) 100%));
+					}
+				}
+			}
+		}
+	}
+}
+.todolist {
+	& .todolist-item {
+		&.active {
+			background: tint-color($primary, 90%);
+			& .todolist-input {
+				& .form-check {
+					& .form-check-input {
+						background-color: $primary;
+						border-color: $primary;
+					}
+				}
+			}
+		}
+	}
+}
+.pace {
+	& .pace-progress {
+		background: $primary;
+	}
+	& .pace-activity {
+		border-top-color: $primary;
+		border-left-color: $primary;
+	}
+}

@@ -1,0 +1,72 @@
+{
+  "_from": "datatables.net-fixedcolumns@^4.0.1",
+  "_id": "datatables.net-fixedcolumns@4.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Y1RpCyJThZ2XS/Ir7rIi4MychTmX1hrbIPasTpMBsKca3ab/LwGKk09/+5f/G2Tkp6nZ8CjhRdg03TOmrDckfQ==",
+  "_location": "/datatables.net-fixedcolumns",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "datatables.net-fixedcolumns@^4.0.1",
+    "name": "datatables.net-fixedcolumns",
+    "escapedName": "datatables.net-fixedcolumns",
+    "rawSpec": "^4.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^4.0.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-fixedcolumns-bs5"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-fixedcolumns/-/datatables.net-fixedcolumns-4.0.1.tgz",
+  "_shasum": "9b9977d8d2ffd26bdf7ddc1cf09025f3cc02148e",
+  "_spec": "datatables.net-fixedcolumns@^4.0.1",
+  "_where": "/home/fox/web/dev/fjesbok",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "datatables.net": ">=1.11.3",
+    "jquery": ">=1.7"
+  },
+  "deprecated": false,
+  "description": "FixedColumns for DataTables",
+  "files": [
+    "js/**/*.js",
+    "types/**/*.d.ts"
+  ],
+  "homepage": "https://datatables.net",
+  "ignore": [
+    "composer.json",
+    "datatables.json",
+    "package.json"
+  ],
+  "keywords": [
+    "FixedColumns",
+    "Datatables",
+    "jQuery",
+    "table",
+    "filter",
+    "sort"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.fixedColumns.js",
+  "moduleType": [
+    "globals",
+    "amd",
+    "node"
+  ],
+  "name": "datatables.net-fixedcolumns",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-FixedColumns.git"
+  },
+  "types": "./types/types.d.ts",
+  "version": "4.0.1"
+}

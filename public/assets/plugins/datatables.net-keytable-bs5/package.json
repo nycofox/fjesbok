@@ -1,0 +1,78 @@
+{
+  "_from": "datatables.net-keytable-bs5@^2.6.4",
+  "_id": "datatables.net-keytable-bs5@2.6.4",
+  "_inBundle": false,
+  "_integrity": "sha512-SHDgrWTHOtrPeuBHepla+GKx0SwpDc00M9zd0WlKtjpAK89TQBO5h0n4xKgycvjbBEA0XVAzyyW0ufE/OklELg==",
+  "_location": "/datatables.net-keytable-bs5",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "datatables.net-keytable-bs5@^2.6.4",
+    "name": "datatables.net-keytable-bs5",
+    "escapedName": "datatables.net-keytable-bs5",
+    "rawSpec": "^2.6.4",
+    "saveSpec": null,
+    "fetchSpec": "^2.6.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-keytable-bs5/-/datatables.net-keytable-bs5-2.6.4.tgz",
+  "_shasum": "1adaabb5af4099f2c97dc55aa2f9d68cc31cc2a0",
+  "_spec": "datatables.net-keytable-bs5@^2.6.4",
+  "_where": "/home/fox/web/dev/fjesbok",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "datatables.net-bs5": ">=1.10.25",
+    "datatables.net-keytable": ">=2.6.2",
+    "jquery": ">=1.7"
+  },
+  "deprecated": false,
+  "description": "KeyTable for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "ignore": [
+    "composer.json",
+    "datatables.json",
+    "package.json"
+  ],
+  "keywords": [
+    "KeyTable",
+    "Excel",
+    "keyboard",
+    "Spreadsheet",
+    "Bootstrap",
+    "Bootstrap5",
+    "Datatables",
+    "jQuery",
+    "table",
+    "filter",
+    "sort"
+  ],
+  "license": "MIT",
+  "main": "js/keyTable.bootstrap5.js",
+  "moduleType": [
+    "globals",
+    "amd",
+    "node"
+  ],
+  "name": "datatables.net-keytable-bs5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-KeyTable-Bootstrap5.git"
+  },
+  "style": "css/keyTable.bootstrap5.css",
+  "types": "./types/keyTable.bootstrap5.d.ts",
+  "version": "2.6.4"
+}

@@ -1,0 +1,76 @@
+{
+  "_from": "datatables.net-autofill-bs5@^2.3.9",
+  "_id": "datatables.net-autofill-bs5@2.3.9",
+  "_inBundle": false,
+  "_integrity": "sha512-f2GxTqUImwl8yi477Bg5taRsQdfdON6siSrGdimtcE6sa1t5dSssfDLsVgdGAOXzQyZiNqjgZUGUewZiRGu0mA==",
+  "_location": "/datatables.net-autofill-bs5",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "datatables.net-autofill-bs5@^2.3.9",
+    "name": "datatables.net-autofill-bs5",
+    "escapedName": "datatables.net-autofill-bs5",
+    "rawSpec": "^2.3.9",
+    "saveSpec": null,
+    "fetchSpec": "^2.3.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-autofill-bs5/-/datatables.net-autofill-bs5-2.3.9.tgz",
+  "_shasum": "739f884b1cc0de6a4c7eb3da2bdaee1bfebfb022",
+  "_spec": "datatables.net-autofill-bs5@^2.3.9",
+  "_where": "/home/fox/web/dev/fjesbok",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "datatables.net-autofill": ">=2.3.7",
+    "datatables.net-bs5": ">=1.10.25",
+    "jquery": ">=1.7"
+  },
+  "deprecated": false,
+  "description": "AutoFill for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "ignore": [
+    "composer.json",
+    "datatables.json",
+    "package.json"
+  ],
+  "keywords": [
+    "AutoFill",
+    "Excel",
+    "Bootstrap",
+    "Bootstrap5",
+    "Datatables",
+    "jQuery",
+    "table",
+    "filter",
+    "sort"
+  ],
+  "license": "MIT",
+  "main": "js/autoFill.bootstrap5.js",
+  "moduleType": [
+    "globals",
+    "amd",
+    "node"
+  ],
+  "name": "datatables.net-autofill-bs5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-AutoFill-Bootstrap5.git"
+  },
+  "style": "css/autoFill.bootstrap5.css",
+  "types": "./types/autoFill.bootstrap5.d.ts",
+  "version": "2.3.9"
+}
