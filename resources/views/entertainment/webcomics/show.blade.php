@@ -3,6 +3,8 @@
 @section('title', 'Webcomics for ' . $date->format('Y-m-d'))
 
 @section('content')
+    <h1 class="page-header">Webcomics <small>for {{ $date->format('Y-m-d') }}</small></h1>
+
     @forelse($webcomics['strips'] as $webcomic)
         <div class="panel panel-inverse">
             <div class="panel-heading">

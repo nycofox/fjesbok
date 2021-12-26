@@ -35,4 +35,8 @@ return [
         'endpoint' => env('WEBCOMICS_API_ENDPOINT'),
     ],
 
+    'dereferer' => [
+        'url' => env('DEREFERER_URL'),
+    ],
+
 ];
