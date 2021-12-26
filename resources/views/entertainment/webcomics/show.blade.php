@@ -11,7 +11,7 @@
             <div class="panel-body">
                 @foreach($webcomic as $strip)
                     <div class="mb-2">
-                        <img src="{{ $strip['url'] }}" class="object-fill">
+                        <img src="{{ $strip['url'] }}" class="img-fluid">
                         <div class="flex justify-between">
                             <span class="text-xs pl-1">
                                 <a href="{{ deref_url($strip['source']['homepage']) }}">{{ $strip['source']['name'] }}</a>
