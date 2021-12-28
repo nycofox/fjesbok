@@ -1,7 +1,7 @@
 @php
 	$appHeaderClass = (!empty($appHeaderInverse)) ? 'app-header-inverse ' : '';
 	$appHeaderMenu = (!empty($appHeaderMenu)) ? $appHeaderMenu : '';
-	$appHeaderMegaMenu = (!empty($appHeaderMegaMenu)) ? $appHeaderMegaMenu : ''; 
+	$appHeaderMegaMenu = (!empty($appHeaderMegaMenu)) ? $appHeaderMegaMenu : '';
 	$appHeaderTopMenu = (!empty($appHeaderTopMenu)) ? $appHeaderTopMenu : '';
 @endphp
 
@@ -52,9 +52,9 @@
 		</button>
 		@endif
 	</div>
-	
+
 	@includeWhen($appHeaderMegaMenu, 'includes.component.header-mega-menu')
-	
+
 	<!-- BEGIN header-nav -->
 	<div class="navbar-nav">
 		<div class="navbar-item navbar-form">
@@ -72,24 +72,24 @@
 			</a>
 			@include('includes.component.header-dropdown-notification')
 		</div>
-		
+
 		@isset($appHeaderLanguageBar)
 			@include('includes.component.header-language-bar')
 		@endisset
-		
+
 		<div class="navbar-item navbar-user dropdown">
 			<a href="#" class="navbar-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
 				<div class="image image-icon bg-gray-800 text-gray-600">
 					<i class="fa fa-user"></i>
-				</div> 
+				</div>
 				<span>
-					<span class="d-none d-md-inline">Adam Schwartz</span>
+					<span class="d-none d-md-inline">{{ auth()->user()->fullName }}</span>
 					<b class="caret"></b>
 				</span>
 			</a>
 			@include('includes.component.header-dropdown-profile')
 		</div>
-		
+
 		@if($appSidebarTwo)
 		<div class="navbar-divider d-none d-md-block"></div>
 		<div class="navbar-item d-none d-md-block">

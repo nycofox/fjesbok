@@ -61,4 +61,9 @@ class User extends Authenticatable implements MustVerifyEmail
             $user->uuid = Str::uuid();
         });
     }
+
+    public function getFullNameAttribute()
+    {
+        return $this->first_name . ' ' . $this->last_name;
+    }
 }

@@ -28,4 +28,5 @@
     @empty
         <p>No strips today...</p>
     @endforelse
+    @include('entertainment.webcomics._pagination')
 @endsection

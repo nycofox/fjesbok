@@ -9,7 +9,7 @@ class Webcomics
     /**
      * Gets a reply from the Webcomics API
      *
-     * @param $url
+     * @param $path
      * @return \GuzzleHttp\Promise\PromiseInterface|\Illuminate\Http\Client\Response
      */
     public static function getFromApi($path)

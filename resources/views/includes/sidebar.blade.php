@@ -16,7 +16,7 @@
 					<div class="menu-profile-info">
 						<div class="d-flex align-items-center">
 							<div class="flex-grow-1">
-								Sean Ngu
+                                {{ auth()->user()->fullName }}
 							</div>
 							<div class="menu-caret ms-auto"></div>
 						</div>
@@ -46,18 +46,18 @@
 				<div class="menu-divider m-0"></div>
 			</div>
 			@endif
-			
+
 			@if ($appSidebarSearch)
 			<div class="menu-search mb-n3">
         <input type="text" class="form-control" placeholder="Sidebar menu filter..." data-sidebar-search="true" />
 			</div>
 			@endif
-			
+
 			<div class="menu-header">Navigation</div>
-			
+
 			@php
 				$currentUrl = (Request::path() != '/') ? '/'. Request::path() : '/';
-				
+
 				function renderSubMenu($value, $currentUrl) {
 					$subMenu = '';
 					$GLOBALS['sub_level'] += 1 ;
@@ -65,21 +65,21 @@
 					$currentLevel = $GLOBALS['sub_level'];
 					foreach ($value as $key => $menu) {
 						$GLOBALS['subparent_level'] = '';
-						
+
 						$subSubMenu = '';
 						$hasSub = (!empty($menu['sub_menu'])) ? 'has-sub' : '';
 						$hasCaret = (!empty($menu['sub_menu'])) ? '<div class="menu-caret"></div>' : '';
 						$hasHighlight = (!empty($menu['highlight'])) ? '<i class="fa fa-paper-plane text-theme ms-1"></i>' : '';
 						$hasTitle = (!empty($menu['title'])) ? '<div class="menu-text">'. $menu['title'] . $hasHighlight .'</div>' : '';
-						
+
 						if (!empty($menu['sub_menu'])) {
 							$subSubMenu .= '<div class="menu-submenu">';
 							$subSubMenu .= renderSubMenu($menu['sub_menu'], $currentUrl);
 							$subSubMenu .= '</div>';
 						}
-						
+
 						$active = (!empty($menu['route-name']) && (Route::currentRouteName() == $menu['route-name'])) ? 'active' : '';
-						
+
 						if ($active) {
 							$GLOBALS['parent_active'] = true;
 							$GLOBALS['active'][$GLOBALS['sub_level'] - 1] = true;
@@ -96,10 +96,10 @@
 					}
 					return $subMenu;
 				}
-				
+
 				foreach (config('sidebar.menu') as $key => $menu) {
 					$GLOBALS['parent_active'] = '';
-					
+
 					$hasSub = (!empty($menu['sub_menu'])) ? 'has-sub' : '';
 					$hasCaret = (!empty($menu['caret'])) ? '<div class="menu-caret"></div>' : '';
 					$hasIcon = (!empty($menu['icon'])) ? '<div class="menu-icon"><i class="'. $menu['icon'] .'"></i></div>' : '';
@@ -107,9 +107,9 @@
 					$hasLabel = (!empty($menu['label'])) ? '<span class="menu-label">'. $menu['label'] .'</span>' : '';
 					$hasTitle = (!empty($menu['title'])) ? '<div class="menu-text">'. $menu['title'] . $hasLabel .'</div>' : '';
 					$hasBadge = (!empty($menu['badge'])) ? '<div class="menu-badge">'. $menu['badge'] .'</div>' : '';
-					
+
 					$subMenu = '';
-					
+
 					if (!empty($menu['sub_menu'])) {
 						$GLOBALS['sub_level'] = 0;
 						$subMenu .= '<div class="menu-submenu">';
@@ -137,7 +137,7 @@
 				<a href="javascript:;" class="app-sidebar-minify-btn ms-auto" data-toggle="app-sidebar-minify"><i class="fa fa-angle-double-left"></i></a>
 			</div>
 			<!-- END minify-button -->
-		
+
 		</div>
 		<!-- END menu -->
 	</div>
