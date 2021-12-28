@@ -3,9 +3,11 @@
 @section('title', 'Login Page')
 
 @section('auth-content')
+    @if($errors->any())
     <div class="mb-20px text-danger">
         <strong>Either your email or password is incorrect, try again!</strong>
     </div>
+    @endif
     <form action="{{ route('login') }}" method="POST">
         @csrf
         <div class="form-floating mb-20px">
