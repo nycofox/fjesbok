@@ -2,6 +2,7 @@
 
 namespace Tests\Feature\Auth;
 
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
@@ -23,6 +24,26 @@ class RegisterUserTest extends TestCase
         $this->assertDatabaseHas('users', ['username' => 'Username']);
 
         $this->assertAuthenticated();
+    }
+
+    /** @test */
+    function an_email_must_be_unique_when_registering()
+    {
+        User::factory()->create(['email' => 'user@example.com']);
+
+        $response = $this->post(route('register', $this->credentials()));
+
+        $response->assertSessionHasErrors(['email']);
+    }
+
+    /** @test */
+    function username_must_be_unique_when_registering()
+    {
+        User::factory()->create(['username' => 'Username']);
+
+        $response = $this->post(route('register', $this->credentials()));
+
+        $response->assertSessionHasErrors(['username']);
     }
 
     /** @test */
