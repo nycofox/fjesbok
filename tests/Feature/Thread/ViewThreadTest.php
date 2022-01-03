@@ -3,8 +3,6 @@
 namespace Tests\Feature\Thread;
 
 use App\Models\Thread;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class ViewThreadTest extends TestCase

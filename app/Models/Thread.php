@@ -26,6 +26,11 @@ class Thread extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
+    }
+
     /**
      * Returns true if the post has been edited after submission
      *

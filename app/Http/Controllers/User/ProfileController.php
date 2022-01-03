@@ -10,7 +10,7 @@ class ProfileController extends Controller
 {
     public function show(User $user)
     {
-        $threads = $user->threads->latest()->get();
+        $threads = $user->threads()->with('user')->latest()->get();
 
         return view('user.profile', compact('user', 'threads'));
     }
