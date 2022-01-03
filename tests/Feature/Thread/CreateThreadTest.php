@@ -3,14 +3,10 @@
 namespace Tests\Feature\Thread;
 
 use App\Models\User;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class CreateThreadTest extends TestCase
 {
-    use RefreshDatabase;
-
     /** @test */
     function a_user_can_create_a_thread()
     {

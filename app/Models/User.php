@@ -48,11 +48,35 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
+    protected $appends = [
+        'full_name'
+    ];
+
+    /**
+     * Use the field 'username' as the route key name
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'username';
+    }
+
+    /**
+     * Returns the user's full name
+     *
+     * @return string
+     */
     public function getFullNameAttribute()
     {
         return $this->first_name . ' ' . $this->last_name;
     }
 
+    /**
+     * A User can have many Threads
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function threads()
     {
         return $this->hasMany(Thread::class);
