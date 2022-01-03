@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Traits\HasRoles;
+use App\Traits\Uuid;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -13,7 +14,7 @@ use Laravel\Sanctum\HasApiTokens;
 class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens, HasFactory, Notifiable;
-    use HasRoles;
+    use HasRoles, Uuid;
 
     /**
      * The attributes that are mass assignable.
@@ -46,21 +47,6 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    /**
-     * Boot the function and create
-     */
-    public static function boot()
-    {
-        parent::boot();
-
-        /**
-         * Set a slug when a user is being created
-         */
-        static::creating(function ($user) {
-            $user->uuid = Str::uuid();
-        });
-    }
 
     public function getFullNameAttribute()
     {
