@@ -27,3 +27,4 @@ Route::post('thread', [\App\Http\Controllers\ThreadController::class, 'store'])
     ->name('thread')->middleware(['auth', 'verified']);
 
 require 'web/entertainment.php';
+require 'web/admin.php';

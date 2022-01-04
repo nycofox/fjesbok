@@ -25,7 +25,7 @@
         <div class="timeline-header">
             <div class="userimage"><img src="{{ $thread->user->avatar_path }}" alt=""/></div>
             <div class="username">
-                <a href="javascript:;">{{ $thread->user->full_name }} <i class="fa fa-check-circle text-blue ms-1"></i></a>
+                <a href="{{ route('profile.show', $thread->user) }}">{{ $thread->user->full_name }} <i class="fa fa-check-circle text-blue ms-1"></i></a>
                 <div class="text-muted fs-12px">{{ $thread->created_at->diffForHumans() }} <i
                         class="fa fa-globe-americas opacity-5 ms-1"></i></div>
             </div>
