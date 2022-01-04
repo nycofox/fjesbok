@@ -21,7 +21,7 @@
             <label for="password" class="d-flex align-items-center py-0">Password</label>
         </div>
         <div class="form-check mb-20px">
-            <input class="form-check-input" name="remember" type="checkbox" value="" id="rememberMe"/>
+            <input name="remember" value="yes" class="form-check-input" type="checkbox" id="rememberMe"/>
             <label class="form-check-label" for="rememberMe">
                 Remember Me
             </label>
