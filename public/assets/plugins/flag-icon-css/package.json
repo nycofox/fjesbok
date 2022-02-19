@@ -1,27 +1,32 @@
 {
-  "_from": "flag-icon-css@^4.1.6",
+  "_args": [
+    [
+      "flag-icon-css@4.1.7",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "flag-icon-css@4.1.7",
   "_id": "flag-icon-css@4.1.7",
   "_inBundle": false,
   "_integrity": "sha512-AFjSU+fv98XbU0vnTQ32vcLj89UEr1MhwDFcooQv14qWJCjg9fGZzfh9BVyDhAhIOZW/pGmJmq38RqpgPaeybQ==",
   "_location": "/flag-icon-css",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "flag-icon-css@^4.1.6",
+    "raw": "flag-icon-css@4.1.7",
     "name": "flag-icon-css",
     "escapedName": "flag-icon-css",
-    "rawSpec": "^4.1.6",
+    "rawSpec": "4.1.7",
     "saveSpec": null,
-    "fetchSpec": "^4.1.6"
+    "fetchSpec": "4.1.7"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/flag-icon-css/-/flag-icon-css-4.1.7.tgz",
-  "_shasum": "5471197f9ab965a3603b3e0face31dd513fec289",
-  "_spec": "flag-icon-css@^4.1.6",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "4.1.7",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Panayiotis Lipiridis",
     "email": "lipiridis@gmail.com"
@@ -29,8 +34,6 @@
   "bugs": {
     "url": "https://github.com/lipis/flag-icons/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "> A curated collection of all country flags in SVG — plus the CSS for easier integration. See the [demo](https://flagicons.lipis.dev).",
   "devDependencies": {
     "http-server": "14.0.0",

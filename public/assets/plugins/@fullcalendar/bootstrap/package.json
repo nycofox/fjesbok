@@ -1,28 +1,33 @@
 {
-  "_from": "@fullcalendar/bootstrap@^5.10.1",
+  "_args": [
+    [
+      "@fullcalendar/bootstrap@5.10.1",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "@fullcalendar/bootstrap@5.10.1",
   "_id": "@fullcalendar/bootstrap@5.10.1",
   "_inBundle": false,
   "_integrity": "sha512-KQRFRc/uiOw+jhcdt3oVIJMXcchsIgoet0nYfo8TRGisP5ZJ7DLoXl4iEVah/DFVkjqSyjre4iNsWzat2U4aww==",
   "_location": "/@fullcalendar/bootstrap",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@fullcalendar/bootstrap@^5.10.1",
+    "raw": "@fullcalendar/bootstrap@5.10.1",
     "name": "@fullcalendar/bootstrap",
     "escapedName": "@fullcalendar%2fbootstrap",
     "scope": "@fullcalendar",
-    "rawSpec": "^5.10.1",
+    "rawSpec": "5.10.1",
     "saveSpec": null,
-    "fetchSpec": "^5.10.1"
+    "fetchSpec": "5.10.1"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fullcalendar/bootstrap/-/bootstrap-5.10.1.tgz",
-  "_shasum": "40a3f15e8a76bd789644afd4c45b755c76803f90",
-  "_spec": "@fullcalendar/bootstrap@^5.10.1",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "5.10.1",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Adam Shaw",
     "email": "arshaw@arshaw.com",
@@ -32,12 +37,10 @@
   "bugs": {
     "url": "https://fullcalendar.io/reporting-bugs"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@fullcalendar/common": "~5.10.1",
     "tslib": "^2.1.0"
   },
-  "deprecated": false,
   "description": "Bootstrap 4 theming for your calendar",
   "devDependencies": {
     "@fullcalendar/core-preact": "5.10.1"

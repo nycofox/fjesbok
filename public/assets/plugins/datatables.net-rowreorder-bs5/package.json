@@ -1,27 +1,32 @@
 {
-  "_from": "datatables.net-rowreorder-bs5@^1.2.8",
+  "_args": [
+    [
+      "datatables.net-rowreorder-bs5@1.2.8",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-rowreorder-bs5@1.2.8",
   "_id": "datatables.net-rowreorder-bs5@1.2.8",
   "_inBundle": false,
   "_integrity": "sha512-5aiTtKokn+dHGcVEfUR9Mp6yCj39KiSddZKEJFrWqXxbZSeigE7X7ac82BUw9Cw+9Vpn59GhmUeguQ5XS2HUrg==",
   "_location": "/datatables.net-rowreorder-bs5",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-rowreorder-bs5@^1.2.8",
+    "raw": "datatables.net-rowreorder-bs5@1.2.8",
     "name": "datatables.net-rowreorder-bs5",
     "escapedName": "datatables.net-rowreorder-bs5",
-    "rawSpec": "^1.2.8",
+    "rawSpec": "1.2.8",
     "saveSpec": null,
-    "fetchSpec": "^1.2.8"
+    "fetchSpec": "1.2.8"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-rowreorder-bs5/-/datatables.net-rowreorder-bs5-1.2.8.tgz",
-  "_shasum": "e9c52003069a97f316c6d58829580b4ce7f4ebc5",
-  "_spec": "datatables.net-rowreorder-bs5@^1.2.8",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "1.2.8",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -29,11 +34,9 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "RowReorder for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
   "files": [
     "css/**/*.css",

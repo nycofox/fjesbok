@@ -1,27 +1,32 @@
 {
-  "_from": "pace-js@^1.2.4",
+  "_args": [
+    [
+      "pace-js@1.2.4",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "pace-js@1.2.4",
   "_id": "pace-js@1.2.4",
   "_inBundle": false,
   "_integrity": "sha512-qnCxtvUoY9yHId0AwMQCVmWltb698GiuVArmDbQzonTu9QCo0SgWUVnX9jB9mi+/FUSWvQULBPxUAAo/kLrh1A==",
   "_location": "/pace-js",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "pace-js@^1.2.4",
+    "raw": "pace-js@1.2.4",
     "name": "pace-js",
     "escapedName": "pace-js",
-    "rawSpec": "^1.2.4",
+    "rawSpec": "1.2.4",
     "saveSpec": null,
-    "fetchSpec": "^1.2.4"
+    "fetchSpec": "1.2.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/pace-js/-/pace-js-1.2.4.tgz",
-  "_shasum": "699aa54c76411ec0297ac06a8cddb6e11e01db99",
-  "_spec": "pace-js@^1.2.4",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "1.2.4",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "CodeByZach",
     "email": "codebyzach@gmail.com"
@@ -29,8 +34,6 @@
   "bugs": {
     "url": "https://github.com/CodeByZach/pace/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Automatically add a progress bar to your site.",
   "homepage": "https://github.com/CodeByZach/pace#readme",
   "keywords": [

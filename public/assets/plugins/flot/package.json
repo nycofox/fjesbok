@@ -1,33 +1,36 @@
 {
-  "_from": "flot@^4.2.2",
+  "_args": [
+    [
+      "flot@4.2.2",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "flot@4.2.2",
   "_id": "flot@4.2.2",
   "_inBundle": false,
   "_integrity": "sha512-Strct/A27o0TA25X7Z0pxKhwK4djiP1Kjeqj0tkiqrkRu1qYPqfbp5BYuxEL8CWDNtj85Uc0PnG2E2plo1+VMg==",
   "_location": "/flot",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "flot@^4.2.2",
+    "raw": "flot@4.2.2",
     "name": "flot",
     "escapedName": "flot",
-    "rawSpec": "^4.2.2",
+    "rawSpec": "4.2.2",
     "saveSpec": null,
-    "fetchSpec": "^4.2.2"
+    "fetchSpec": "4.2.2"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/flot/-/flot-4.2.2.tgz",
-  "_shasum": "0661d9e3805c86ccd36560f9602a0d1484d60fe8",
-  "_spec": "flot@^4.2.2",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "4.2.2",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "bugs": {
     "url": "https://github.com/flot/flot/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "## About ##",
   "devDependencies": {
     "@babel/cli": "^7.2.3",

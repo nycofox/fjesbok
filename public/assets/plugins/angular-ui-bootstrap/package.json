@@ -1,36 +1,39 @@
 {
-  "_from": "angular-ui-bootstrap@^2.5.6",
+  "_args": [
+    [
+      "angular-ui-bootstrap@2.5.6",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "angular-ui-bootstrap@2.5.6",
   "_id": "angular-ui-bootstrap@2.5.6",
   "_inBundle": false,
   "_integrity": "sha512-yzcHpPMLQl0232nDzm5P4iAFTFQ9dMw0QgFLuKYbDj9M0xJ62z0oudYD/Lvh1pWfRsukiytP4Xj6BHOSrSXP8A==",
   "_location": "/angular-ui-bootstrap",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "angular-ui-bootstrap@^2.5.6",
+    "raw": "angular-ui-bootstrap@2.5.6",
     "name": "angular-ui-bootstrap",
     "escapedName": "angular-ui-bootstrap",
-    "rawSpec": "^2.5.6",
+    "rawSpec": "2.5.6",
     "saveSpec": null,
-    "fetchSpec": "^2.5.6"
+    "fetchSpec": "2.5.6"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/angular-ui-bootstrap/-/angular-ui-bootstrap-2.5.6.tgz",
-  "_shasum": "23937322ec641a6fbee16498cc32452aa199e7c5",
-  "_spec": "angular-ui-bootstrap@^2.5.6",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "2.5.6",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "https://github.com/angular-ui/bootstrap/graphs/contributors"
   },
   "bugs": {
     "url": "https://github.com/angular-ui/bootstrap/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "Native AngularJS (Angular) directives for Bootstrap",
   "devDependencies": {
     "angular": "1.6.1",

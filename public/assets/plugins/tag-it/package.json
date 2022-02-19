@@ -1,35 +1,38 @@
 {
-  "_from": "tag-it@^2.0.0",
+  "_args": [
+    [
+      "tag-it@2.0.0",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "tag-it@2.0.0",
   "_id": "tag-it@2.0.0",
   "_inBundle": false,
   "_integrity": "sha1-e2GHWd+ED7kClKVCV6lH+isUhUI=",
   "_location": "/tag-it",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "tag-it@^2.0.0",
+    "raw": "tag-it@2.0.0",
     "name": "tag-it",
     "escapedName": "tag-it",
-    "rawSpec": "^2.0.0",
+    "rawSpec": "2.0.0",
     "saveSpec": null,
-    "fetchSpec": "^2.0.0"
+    "fetchSpec": "2.0.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tag-it/-/tag-it-2.0.0.tgz",
-  "_shasum": "7b618759df840fb90294a54257a947fa2b148542",
-  "_spec": "tag-it@^2.0.0",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "2.0.0",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Alex Ehlke"
   },
   "bugs": {
     "url": "https://github.com/aehlke/tag-it/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "A jQuery UI plugin to handle multi-tag fields as well as tag suggestions/autocomplete.",
   "homepage": "https://github.com/aehlke/tag-it#readme",
   "keywords": [

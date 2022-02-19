@@ -1,27 +1,33 @@
 {
-  "_from": "blueimp-load-image@5",
+  "_args": [
+    [
+      "blueimp-load-image@5.16.0",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "blueimp-load-image@5.16.0",
   "_id": "blueimp-load-image@5.16.0",
   "_inBundle": false,
   "_integrity": "sha512-3DUSVdOtlfNRk7moRZuTwDmA3NnG8KIJuLcq3c0J7/BIr6X3Vb/EpX3kUH1joxUhmoVF4uCpDfz7wHkz8pQajA==",
   "_location": "/blueimp-load-image",
+  "_optional": true,
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "blueimp-load-image@5",
+    "raw": "blueimp-load-image@5.16.0",
     "name": "blueimp-load-image",
     "escapedName": "blueimp-load-image",
-    "rawSpec": "5",
+    "rawSpec": "5.16.0",
     "saveSpec": null,
-    "fetchSpec": "5"
+    "fetchSpec": "5.16.0"
   },
   "_requiredBy": [
     "/blueimp-file-upload"
   ],
   "_resolved": "https://registry.npmjs.org/blueimp-load-image/-/blueimp-load-image-5.16.0.tgz",
-  "_shasum": "16b763f57e6725f8865517bca8eb7c3dc7d41e09",
-  "_spec": "blueimp-load-image@5",
-  "_where": "/home/fox/web/dev/fjesbok/node_modules/blueimp-file-upload",
+  "_spec": "5.16.0",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
@@ -29,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/blueimp/JavaScript-Load-Image/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "JavaScript Load Image is a library to load images provided as File or Blob objects or via URL. It returns an optionally scaled, cropped or rotated HTML img or canvas element. It also provides methods to parse image metadata to extract IPTC and Exif tags as well as embedded thumbnail images, to overwrite the Exif Orientation value and to restore the complete image header after resizing.",
   "devDependencies": {
     "blueimp-canvas-to-blob": "3",

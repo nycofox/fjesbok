@@ -1,27 +1,33 @@
 {
-  "_from": "blueimp-canvas-to-blob@3",
+  "_args": [
+    [
+      "blueimp-canvas-to-blob@3.29.0",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "blueimp-canvas-to-blob@3.29.0",
   "_id": "blueimp-canvas-to-blob@3.29.0",
   "_inBundle": false,
   "_integrity": "sha512-0pcSSGxC0QxT+yVkivxIqW0Y4VlO2XSDPofBAqoJ1qJxgH9eiUDLv50Rixij2cDuEfx4M6DpD9UGZpRhT5Q8qg==",
   "_location": "/blueimp-canvas-to-blob",
+  "_optional": true,
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "blueimp-canvas-to-blob@3",
+    "raw": "blueimp-canvas-to-blob@3.29.0",
     "name": "blueimp-canvas-to-blob",
     "escapedName": "blueimp-canvas-to-blob",
-    "rawSpec": "3",
+    "rawSpec": "3.29.0",
     "saveSpec": null,
-    "fetchSpec": "3"
+    "fetchSpec": "3.29.0"
   },
   "_requiredBy": [
     "/blueimp-file-upload"
   ],
   "_resolved": "https://registry.npmjs.org/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.29.0.tgz",
-  "_shasum": "d965f06cb1a67fdae207a2be56683f55ef531466",
-  "_spec": "blueimp-canvas-to-blob@3",
-  "_where": "/home/fox/web/dev/fjesbok/node_modules/blueimp-file-upload",
+  "_spec": "3.29.0",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
@@ -29,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/blueimp/JavaScript-Canvas-to-Blob/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Canvas to Blob is a polyfill for the standard JavaScript canvas.toBlob method. It can be used to create Blob objects from an HTML canvas element.",
   "devDependencies": {
     "blueimp-load-image": "5",

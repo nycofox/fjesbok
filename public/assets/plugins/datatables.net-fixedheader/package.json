@@ -1,28 +1,33 @@
 {
-  "_from": "datatables.net-fixedheader@^3.2.0",
+  "_args": [
+    [
+      "datatables.net-fixedheader@3.2.1",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-fixedheader@3.2.1",
   "_id": "datatables.net-fixedheader@3.2.1",
   "_inBundle": false,
   "_integrity": "sha512-YevlayIayvv8OKim3pduz4q9yY2IylrpIrHfb/DbL63gf4kDqj4s84fG5wsBHNUCoDhT1mvxhSPz2rWXDvym+g==",
   "_location": "/datatables.net-fixedheader",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-fixedheader@^3.2.0",
+    "raw": "datatables.net-fixedheader@3.2.1",
     "name": "datatables.net-fixedheader",
     "escapedName": "datatables.net-fixedheader",
-    "rawSpec": "^3.2.0",
+    "rawSpec": "3.2.1",
     "saveSpec": null,
-    "fetchSpec": "^3.2.0"
+    "fetchSpec": "3.2.1"
   },
   "_requiredBy": [
     "/",
     "/datatables.net-fixedheader-bs5"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-fixedheader/-/datatables.net-fixedheader-3.2.1.tgz",
-  "_shasum": "e9de52f558e95f73ecb475636ed18fab672d0425",
-  "_spec": "datatables.net-fixedheader@^3.2.0",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "3.2.1",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -30,12 +35,10 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "datatables.net": ">=1.11.3",
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "FixedHeader for DataTables",
   "files": [
     "js/**/*.js",

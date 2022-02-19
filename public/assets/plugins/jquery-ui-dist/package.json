@@ -1,27 +1,32 @@
 {
-  "_from": "jquery-ui-dist@^1.12.1",
+  "_args": [
+    [
+      "jquery-ui-dist@1.13.0",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "jquery-ui-dist@1.13.0",
   "_id": "jquery-ui-dist@1.13.0",
   "_inBundle": false,
   "_integrity": "sha512-fgpGOW098swRvTLglH3RLyAjW/8Ecxd35fO7Z1WtBidhZgnPDvTJzZ+XFybAFzv3zZiEESI8TkK6oYXbzu/rKw==",
   "_location": "/jquery-ui-dist",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "jquery-ui-dist@^1.12.1",
+    "raw": "jquery-ui-dist@1.13.0",
     "name": "jquery-ui-dist",
     "escapedName": "jquery-ui-dist",
-    "rawSpec": "^1.12.1",
+    "rawSpec": "1.13.0",
     "saveSpec": null,
-    "fetchSpec": "^1.12.1"
+    "fetchSpec": "1.13.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/jquery-ui-dist/-/jquery-ui-dist-1.13.0.tgz",
-  "_shasum": "d6e9b88275605c08c5a806781b1967ecf921a248",
-  "_spec": "jquery-ui-dist@^1.12.1",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "1.13.0",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery-ui/blob/1.13.0/AUTHORS.txt"
@@ -29,11 +34,9 @@
   "bugs": {
     "url": "https://bugs.jqueryui.com/"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "jquery": ">=1.8.0 <4.0.0"
   },
-  "deprecated": false,
   "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
   "devDependencies": {
     "commitplease": "3.2.0",

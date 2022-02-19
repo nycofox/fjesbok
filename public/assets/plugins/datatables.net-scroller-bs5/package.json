@@ -1,27 +1,32 @@
 {
-  "_from": "datatables.net-scroller-bs5@^2.0.5",
+  "_args": [
+    [
+      "datatables.net-scroller-bs5@2.0.5",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-scroller-bs5@2.0.5",
   "_id": "datatables.net-scroller-bs5@2.0.5",
   "_inBundle": false,
   "_integrity": "sha512-hnF/q81WGwAmwVHxlSupkrxJD0UJ1rythh/+fUKkisFMS/BwXA06DxnldbMu9pZGqN0IsaJlaEHDojnSpBhu2w==",
   "_location": "/datatables.net-scroller-bs5",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-scroller-bs5@^2.0.5",
+    "raw": "datatables.net-scroller-bs5@2.0.5",
     "name": "datatables.net-scroller-bs5",
     "escapedName": "datatables.net-scroller-bs5",
-    "rawSpec": "^2.0.5",
+    "rawSpec": "2.0.5",
     "saveSpec": null,
-    "fetchSpec": "^2.0.5"
+    "fetchSpec": "2.0.5"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-scroller-bs5/-/datatables.net-scroller-bs5-2.0.5.tgz",
-  "_shasum": "929d08fb567fcad881bc7e57e77ae973884c4357",
-  "_spec": "datatables.net-scroller-bs5@^2.0.5",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "2.0.5",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -29,13 +34,11 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "datatables.net-bs5": ">=1.10.25",
     "datatables.net-scroller": ">=2.0.4",
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "Scroller for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
   "files": [
     "css/**/*.css",

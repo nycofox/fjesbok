@@ -1,28 +1,33 @@
 {
-  "_from": "datatables.net-fixedcolumns@^4.0.1",
+  "_args": [
+    [
+      "datatables.net-fixedcolumns@4.0.1",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-fixedcolumns@4.0.1",
   "_id": "datatables.net-fixedcolumns@4.0.1",
   "_inBundle": false,
   "_integrity": "sha512-Y1RpCyJThZ2XS/Ir7rIi4MychTmX1hrbIPasTpMBsKca3ab/LwGKk09/+5f/G2Tkp6nZ8CjhRdg03TOmrDckfQ==",
   "_location": "/datatables.net-fixedcolumns",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-fixedcolumns@^4.0.1",
+    "raw": "datatables.net-fixedcolumns@4.0.1",
     "name": "datatables.net-fixedcolumns",
     "escapedName": "datatables.net-fixedcolumns",
-    "rawSpec": "^4.0.1",
+    "rawSpec": "4.0.1",
     "saveSpec": null,
-    "fetchSpec": "^4.0.1"
+    "fetchSpec": "4.0.1"
   },
   "_requiredBy": [
     "/",
     "/datatables.net-fixedcolumns-bs5"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-fixedcolumns/-/datatables.net-fixedcolumns-4.0.1.tgz",
-  "_shasum": "9b9977d8d2ffd26bdf7ddc1cf09025f3cc02148e",
-  "_spec": "datatables.net-fixedcolumns@^4.0.1",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "4.0.1",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -30,12 +35,10 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "datatables.net": ">=1.11.3",
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "FixedColumns for DataTables",
   "files": [
     "js/**/*.js",

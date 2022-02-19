@@ -1,27 +1,32 @@
 {
-  "_from": "blueimp-file-upload@^10.32.0",
+  "_args": [
+    [
+      "blueimp-file-upload@10.32.0",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "blueimp-file-upload@10.32.0",
   "_id": "blueimp-file-upload@10.32.0",
   "_inBundle": false,
   "_integrity": "sha512-3WMJw5Cbfz94Adl1OeyH+rRpGwHiNHzja+CR6aRWPoAtwrUwvP5gXKo0XdX+sdPE+iCU63Xmba88hoHQmzY8RQ==",
   "_location": "/blueimp-file-upload",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "blueimp-file-upload@^10.32.0",
+    "raw": "blueimp-file-upload@10.32.0",
     "name": "blueimp-file-upload",
     "escapedName": "blueimp-file-upload",
-    "rawSpec": "^10.32.0",
+    "rawSpec": "10.32.0",
     "saveSpec": null,
-    "fetchSpec": "^10.32.0"
+    "fetchSpec": "10.32.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/blueimp-file-upload/-/blueimp-file-upload-10.32.0.tgz",
-  "_shasum": "897c91f813ccf4b6cd14db2da3da237ce433e04e",
-  "_spec": "blueimp-file-upload@^10.32.0",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "10.32.0",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
@@ -29,13 +34,11 @@
   "bugs": {
     "url": "https://github.com/blueimp/jQuery-File-Upload/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "blueimp-canvas-to-blob": "3",
     "blueimp-load-image": "5",
     "blueimp-tmpl": "3"
   },
-  "deprecated": false,
   "description": "File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.",
   "devDependencies": {
     "eslint": "7",

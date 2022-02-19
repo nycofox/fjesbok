@@ -1,35 +1,38 @@
 {
-  "_from": "bootstrap-datetime-picker@^2.4.4",
+  "_args": [
+    [
+      "bootstrap-datetime-picker@2.4.4",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "bootstrap-datetime-picker@2.4.4",
   "_id": "bootstrap-datetime-picker@2.4.4",
   "_inBundle": false,
   "_integrity": "sha1-t8/oQ6PG0iHAMpPJpGSkzDXXOWg=",
   "_location": "/bootstrap-datetime-picker",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "bootstrap-datetime-picker@^2.4.4",
+    "raw": "bootstrap-datetime-picker@2.4.4",
     "name": "bootstrap-datetime-picker",
     "escapedName": "bootstrap-datetime-picker",
-    "rawSpec": "^2.4.4",
+    "rawSpec": "2.4.4",
     "saveSpec": null,
-    "fetchSpec": "^2.4.4"
+    "fetchSpec": "2.4.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/bootstrap-datetime-picker/-/bootstrap-datetime-picker-2.4.4.tgz",
-  "_shasum": "b7cfe843a3c6d221c03293c9a464a4cc35d73968",
-  "_spec": "bootstrap-datetime-picker@^2.4.4",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "2.4.4",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Sebastien Malot"
   },
   "bugs": {
     "url": "https://github.com/smalot/bootstrap-datetimepicker"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Both Date and Time picker widget based on twitter bootstrap",
   "devDependencies": {
     "grunt": "^1.0.1",

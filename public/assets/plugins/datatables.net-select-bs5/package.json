@@ -1,27 +1,32 @@
 {
-  "_from": "datatables.net-select-bs5@^1.3.3",
+  "_args": [
+    [
+      "datatables.net-select-bs5@1.3.4",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-select-bs5@1.3.4",
   "_id": "datatables.net-select-bs5@1.3.4",
   "_inBundle": false,
   "_integrity": "sha512-fJyFVtDzo4P4oIOUU2vSvYLuegDdSoqJrqPbFaI0DX2O/MYg2H9hXo09UZ7No/pxBJ1NBRCm8Q3U9uyoCBK7RQ==",
   "_location": "/datatables.net-select-bs5",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-select-bs5@^1.3.3",
+    "raw": "datatables.net-select-bs5@1.3.4",
     "name": "datatables.net-select-bs5",
     "escapedName": "datatables.net-select-bs5",
-    "rawSpec": "^1.3.3",
+    "rawSpec": "1.3.4",
     "saveSpec": null,
-    "fetchSpec": "^1.3.3"
+    "fetchSpec": "1.3.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-select-bs5/-/datatables.net-select-bs5-1.3.4.tgz",
-  "_shasum": "bc72d76ea2eb5930b9e1f8622f88e56e06df7954",
-  "_spec": "datatables.net-select-bs5@^1.3.3",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "1.3.4",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -29,13 +34,11 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "datatables.net-bs5": ">=1.11.3",
     "datatables.net-select": ">=1.3.3",
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "Select for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
   "files": [
     "css/**/*.css",

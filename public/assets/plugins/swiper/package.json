@@ -1,39 +1,42 @@
 {
-  "_from": "swiper@^7.3.1",
+  "_args": [
+    [
+      "swiper@7.3.3",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "swiper@7.3.3",
   "_id": "swiper@7.3.3",
   "_inBundle": false,
   "_integrity": "sha512-Y6kjNI3MhqkLPOf01AZwXMxULMeFDEavArDyVKbOlBLhz+h3hj4vIHwbDUwI0k5iVH7VYNE67jWLsQmoKjuaVA==",
   "_location": "/swiper",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "swiper@^7.3.1",
+    "raw": "swiper@7.3.3",
     "name": "swiper",
     "escapedName": "swiper",
-    "rawSpec": "^7.3.1",
+    "rawSpec": "7.3.3",
     "saveSpec": null,
-    "fetchSpec": "^7.3.1"
+    "fetchSpec": "7.3.3"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/swiper/-/swiper-7.3.3.tgz",
-  "_shasum": "20cf955bfe7ae1e3d0c4418a2b1757b3484f0b89",
-  "_spec": "swiper@^7.3.1",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "7.3.3",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "Vladimir Kharlampidi"
   },
   "bugs": {
     "url": "https://github.com/nolimits4web/swiper/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "dom7": "^4.0.2",
     "ssr-window": "^4.0.2"
   },
-  "deprecated": false,
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "engines": {
     "node": ">= 4.7.0"

@@ -1,27 +1,32 @@
 {
-  "_from": "datatables.net-keytable-bs5@^2.6.4",
+  "_args": [
+    [
+      "datatables.net-keytable-bs5@2.6.4",
+      "C:\\Code\\Web\\fjesbok"
+    ]
+  ],
+  "_from": "datatables.net-keytable-bs5@2.6.4",
   "_id": "datatables.net-keytable-bs5@2.6.4",
   "_inBundle": false,
   "_integrity": "sha512-SHDgrWTHOtrPeuBHepla+GKx0SwpDc00M9zd0WlKtjpAK89TQBO5h0n4xKgycvjbBEA0XVAzyyW0ufE/OklELg==",
   "_location": "/datatables.net-keytable-bs5",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "datatables.net-keytable-bs5@^2.6.4",
+    "raw": "datatables.net-keytable-bs5@2.6.4",
     "name": "datatables.net-keytable-bs5",
     "escapedName": "datatables.net-keytable-bs5",
-    "rawSpec": "^2.6.4",
+    "rawSpec": "2.6.4",
     "saveSpec": null,
-    "fetchSpec": "^2.6.4"
+    "fetchSpec": "2.6.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/datatables.net-keytable-bs5/-/datatables.net-keytable-bs5-2.6.4.tgz",
-  "_shasum": "1adaabb5af4099f2c97dc55aa2f9d68cc31cc2a0",
-  "_spec": "datatables.net-keytable-bs5@^2.6.4",
-  "_where": "/home/fox/web/dev/fjesbok",
+  "_spec": "2.6.4",
+  "_where": "C:\\Code\\Web\\fjesbok",
   "author": {
     "name": "SpryMedia Ltd",
     "url": "http://datatables.net"
@@ -29,13 +34,11 @@
   "bugs": {
     "url": "https://datatables.net/forums"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "datatables.net-bs5": ">=1.10.25",
     "datatables.net-keytable": ">=2.6.2",
     "jquery": ">=1.7"
   },
-  "deprecated": false,
   "description": "KeyTable for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
   "files": [
     "css/**/*.css",
