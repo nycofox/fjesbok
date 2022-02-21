@@ -19,6 +19,7 @@ return [
                     'title' => 'Webcomics',
                     'url' => '/webcomics',
                     'route-name' => 'webcomics.show',
+                    'role' => 'webcomics',
                 ],
                 [
                     'title' => 'Games',
@@ -27,6 +28,20 @@ return [
                 ],
 
             ]
+        ],
+        [
+            'icon' => 'fas fa-lock',
+            'title' => 'Admin',
+            'role' => 'admin',
+            'url' => 'javascript:;',
+            'caret' => true,
+            'sub_menu' => [
+                [
+                    'title' => 'Admin',
+                    'url' => '/admin',
+                    'route-name' => 'admin.index',
+                ],
+            ],
         ],
         /*
                 [
